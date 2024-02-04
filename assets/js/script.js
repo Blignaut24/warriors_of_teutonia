@@ -2,7 +2,7 @@ import {
   startConfetti,
   stopConfetti,
   removeConfetti,
-} from "assets/js/confetti.js";
+} from "./assets/js/confetti.js";
 
 const hammerIcon = document.getElementById("playerHammer");
 hammerIcon.addEventListener("click", () => select("hammer"));
