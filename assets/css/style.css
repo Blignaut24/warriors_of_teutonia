@@ -1,0 +1,35 @@
+/* link to google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Forum&family=Martel&display=swap');
+
+/* general styles */
+:root{
+    /* fonts */
+    --title: 'Alegreya',serif;
+    --sub-title: 'Forum',serif;
+    --main-font:'Martel',serif;
+
+
+    /* colors */
+    --background: #F5F5F5;
+    --primary: ##d8a66c;
+    --info: #242335
+    --success: #76ac58;
+    --warning: #f39c20;
+    --danger: #f44336;
+
+
+    /* utils */
+};
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-color: var(--primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* headings*/
+
+/* buttons */
