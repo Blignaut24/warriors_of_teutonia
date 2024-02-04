@@ -162,6 +162,12 @@ h2 {
   }
 }
 
+/* Confetti positioning */
+#confetti-canvas {
+  position: absolute;
+  z-index: -1;
+}
+
 /* headings*/
 
 /* buttons */
