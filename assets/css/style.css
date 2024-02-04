@@ -11,15 +11,15 @@
 
     /* colors */
     --background: #F5F5F5;
-    --primary: ##d8a66c;
-    --info: #242335
+    --primary: #d8a66c;
+    --info: #242335;
     --success: #76ac58;
     --warning: #f39c20;
     --danger: #f44336;
 
 
     /* utils */
-};
+}
 
 body {
     margin: 0;
