@@ -94,29 +94,62 @@
           id="computerWizard"
         ></i>
       </div>
-      <!-- Reset Icon -->
-      <i
-        class="fa-sharp fa-solid fa-arrows-rotate fa-sm"
-        title="Reset"
-        onclick="resetAll()"
-      ></i>
+      <div id="footer-panel">
+        <!-- Reset Icon -->
+        <div id="reset_icon" class="reset_icon_container">
+          <i
+            class="fa-sharp fa-solid fa-arrows-rotate fa-sm"
+            title="Reset"
+            onclick="resetAll()"
+          ></i>
+        </div>
+        <!-- Rules Modal code snippet modified from the source: https://www.w3schools.com/howto/howto_css_modals.asp -->
+        <!-- Trigger/ Open The Rules Modal -->
+        <div class="rules-button-container">
+          <!-- Trigger/Open The Modal -->
+          <button id="myBtn" role="button">Rules</button>
+          <!-- The Modal -->
+          <div id="myModal" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <h2><strong>Warriors of Teutonia - Rules of War</strong></h2>
+              <dir id="gameplay-diagram" class="diagram">
+                <img
+                  src="assets\images\rule_diagram.png"
+                  title="Gameplay Diagram"
+                  alt="Gameplay diagram"
+                />
+              </dir>
+              <ul>
+                <li>
+                  <strong>Hammer</strong>: Beats Shuriken and Wizard, but loses
+                  to Shield and Dragon.
+                </li>
+                <li>
+                  <strong>Shield</strong>: Beats Hammer and Dragon, but loses to
+                  Shuriken and Wizard.
+                </li>
+                <li>
+                  <strong>Shuriken</strong>: Beats Shield and Dragon, but loses
+                  to Hammer and Wizard.
+                </li>
+                <li>
+                  <strong>Dragon</strong>: Beats Hammer and Shuriken, but loses
+                  to Shield and Wizard.
+                </li>
+                <li>
+                  <strong>Wizard</strong>: Beats Shuriken and Shield, but loses
+                  to Hammer and Dragon.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
       <!-- Results Text -->
       <div class="result-container">
         <h3 class="result-text" id="resultText"></h3>
-      </div>
-      <!-- Rules Modal code snippet modified from the source: https://www.w3schools.com/howto/howto_css_modals.asp -->
-      <!-- Trigger/ Open The Rules Modal -->
-      <div class="rules-button-container">
-        <!-- Trigger/Open The Modal -->
-        <button id="myBtn" role="button">Rules</button>
-        <!-- The Modal -->
-        <div id="myModal" class="modal">
-          <!-- Modal content -->
-          <div class="modal-content">
-            <span class="close">&times;</span>
-            <p>Some text in the Modal..</p>
-          </div>
-        </div>
       </div>
     </div>
 
