@@ -106,23 +106,20 @@ h2 {
   color: var(--computer_icons);
 }
 
-#footer_panel{
-  flex-wrap: wrap;
-
-}
-
-/* .reset_icon_container { 
+#footer-panel{
   display: flex;
   justify-content: center;
-  align-items: center;
-  margin-top: 8%;
-  margin-bottom: 5%;
-} */
+  align-self: center;
+}
 
-.reset-icon {
+.reset-container {
   font-size: 30px;
   cursor: pointer;
   margin-left: 50px;
+}
+
+#reset-icon{
+  line-height: unset;
 }
 
 .result-container {
