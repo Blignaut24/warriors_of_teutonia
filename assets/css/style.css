@@ -68,8 +68,9 @@ h2 {
 }
 
 .fa-sharp {
-  font-size: 50px;
+  font-size: 2.5em;
   user-select: none;
+  margin-right: 1em;
 }
 
 #player .fa-sharp,
@@ -164,7 +165,6 @@ h2 {
   height: auto;
 }
 
-
 /* The Close Button */
 .close {
   color: #aaa;
@@ -238,7 +238,7 @@ h2 {
 .rules-text li {
   max-width: 30em;
   text-align: justify;
-  }
+}
 
 /* Media Query: Large Smartphone (Vertical) */
 @media screen and (max-width: 600px) {
@@ -280,7 +280,7 @@ h2 {
   }
 
   .fa-sharp {
-    font-size: 43px;
+    font-size: 16px;
   }
 
   .reset-icon {
