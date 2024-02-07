@@ -1,1 +1,1 @@
-View the live site [here](http://127.0.0.1:5500/index.html).
+View the live site [here](https://blignaut24.github.io/warriors_of_teutonia/).
