@@ -159,6 +159,12 @@ h2 {
   align-items: center;
 }
 
+#gameplay-diagram img {
+  width: 50%;
+  height: auto;
+}
+
+
 /* The Close Button */
 .close {
   color: #aaa;
