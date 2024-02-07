@@ -1,31 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Basic page setup -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Description and Keywords for SEO -->
     <meta
       name="description"
       content="In 'Warriors of Teutonia', engage in epic battles and strategic conquests as one of five legendary tribes. Only the bravest rule."
-    >
+    />
     <meta
       name="keywords"
       content="Welcome to 'Warriors of Teutonia, board game, strategy game, rock paper scissors variant, one player, Web-based Game, Browser Game"
-    >
+    />
     <title>Warriors of Teutonia</title>
+    <!-- Linking external CSS for styling and font -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-    >
-    <link rel="stylesheet" href="assets/css/style.css" >
-    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico" >
+    />
+    <!-- Linking internal CSS for styling -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- Favicon for the website -->
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico" />
   </head>
   <body>
-    <!-- header -->
+    <!-- Game container which includes the header and player area -->
     <div class="game-container">
+      <!-- Header -->
       <div class="header">
         <h1>Warriors of Teutonia</h1>
       </div>
+      <!-- Player area -->
       <div class="player-container" id="player">
+        <!-- Player controls and score -->
+        <!-- Player icons with onclick events -->
         <h2>
           You - <span id="playerScore"></span
           ><span class="choice" id="playerChoice"></span>
@@ -63,6 +72,8 @@
       </div>
       <!-- Computer Container -->
       <div class="player-container" id="computer">
+        <!-- Computer controls and score -->
+        <!-- Computer icons -->
         <h2>
           Computer - <span id="computerScore"></span
           ><span class="choice" id="computerChoice"> </span>
@@ -93,8 +104,10 @@
           id="computerWizard"
         ></i>
       </div>
+      <!-- Footer panel with reset and rules buttons -->
       <div id="footer-panel">
-        <!-- Reset Icon -->
+        <!-- Reset button -->
+        <!-- Rules button and modal -->
         <div id="reset_container" class="reset_icon_container">
           <i
             id="reset-icon"
@@ -114,7 +127,13 @@
             <div class="modal-content">
               <span class="close">&times;</span>
               <h2><strong>Warriors of Teutonia - Rules of War</strong></h2>
-              <img id="gameplay-diagram" class="diagram" src="assets/images/gameplay_diagram.webp" title="Gameplay Diagram" alt="Gameplay diagram">
+              <img
+                id="gameplay-diagram"
+                class="diagram"
+                src="assets/images/gameplay_diagram.webp"
+                title="Gameplay Diagram"
+                alt="Gameplay diagram"
+              />
               <div class="rules-text">
                 <ul>
                   <li>
@@ -157,7 +176,9 @@
     </div>
 
     <!-- Script -->
+    <!-- Linking external JavaScript for functionality -->
     <script src="assets/js/confetti.js"></script>
+    <!-- Linking internal JavaScript for functionality -->
     <script src="assets/js/script.js"></script>
   </body>
 </html>

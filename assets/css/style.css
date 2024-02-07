@@ -1,7 +1,13 @@
-/* link to google fonts*/
+/*
+* Google Font Imports
+* Importing different fonts from Google Fonts for use throughout the website.
+*/
 @import url("https://fonts.googleapis.com/css2?family=Andika&family=Caesar+Dressing&family=Jim+Nightshade&family=Rancho&display=swap");
 
-/* general styles */
+/*
+* Root Styles
+* Defining global styling variables that can be reused across the CSS. This includes fonts and color definitions.
+*/
 :root {
   /* fonts */
   --title: "Caesar Dressing", serif;
@@ -20,6 +26,10 @@
   --selection: #7e0684;
 }
 
+/*
+* Global Styles
+* Applying global styles to HTML and body. This includes box-sizing and background color.
+*/
 html {
   box-sizing: border-box;
 }
@@ -33,6 +43,10 @@ body {
   align-items: center;
 }
 
+/*
+* Game Container Styles
+* Styling the main game container. This includes width, height, background color, and box shadow.
+*/
 .game-container {
   width: 530px;
   height: 600px;
@@ -41,6 +55,10 @@ body {
   box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.5);
 }
 
+/*
+* Header Styles
+* Styling the header of the game including background color, border radius, height, and centering of items.
+*/
 div.header {
   background-color: var(--primary);
   border-top-left-radius: 5px;
@@ -195,8 +213,6 @@ h2 {
   color: var(--text);
 }
 
-
-
 /* Rules Modal Text */
 .modal-content h2 {
   font-size: 2.3em;
@@ -213,6 +229,11 @@ h2 {
   max-width: 30em;
   text-align: justify;
 }
+
+/*
+* Media Queries
+* Adjusting the layout and sizing of elements for different screen sizes.
+*/
 
 /* Media Query: Large Smartphone (Vertical) */
 @media screen and (max-width: 600px) {
@@ -254,7 +275,7 @@ h2 {
   }
 
   .fa-sharp {
-    font-size: 16px;
+    font-size: 22px;
   }
 
   .reset-icon {

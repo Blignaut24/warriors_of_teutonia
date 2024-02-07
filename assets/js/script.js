@@ -1,6 +1,9 @@
 /*jshint esversion: 6 */
 
+// ---------------------
 // Define game icons
+// ---------------------
+// Each game icon is defined and an event listener is added to it. When an icon is clicked, the corresponding game character is selected.
 const hammerIcon = document.getElementById("playerHammer");
 hammerIcon.addEventListener("click", () => select("hammer"));
 const shieldIcon = document.getElementById("playerShield");
@@ -12,14 +15,20 @@ dragonIcon.addEventListener("click", () => select("dragon"));
 const wizardIcon = document.getElementById("playerWizard");
 wizardIcon.addEventListener("click", () => select("wizard"));
 
+// ---------------------
 // Define score and choice elements
+// ---------------------
+// Here we're getting the DOM elements that will display the scores and choices of each player.
 const playerScoreEl = document.getElementById("playerScore");
 const playerChoiceEl = document.getElementById("playerChoice");
 const computerScoreEl = document.getElementById("computerScore");
 const computerChoiceEl = document.getElementById("computerChoice");
 const resultText = document.getElementById("resultText");
 
-// Define player game icons
+// ---------------------
+// Define player and computer game icons
+// ---------------------
+// These constants hold the DOM elements for the game icons of each player.
 const playerHammer = document.getElementById("playerHammer");
 const playerShield = document.getElementById("playerShield");
 const playerShuriken = document.getElementById("playerShuriken");
@@ -36,7 +45,10 @@ const computerWizard = document.getElementById("computerWizard");
 // Define all game icons
 const allGameIcons = document.querySelectorAll(".fa-sharp");
 
+// ---------------------
 // Define game choices
+// ---------------------
+// This object defines the game mechanics. Each key is a game choice, and the corresponding value is an object that includes the name of the choice and an array of the choices it defeats.
 const choices = {
   hammer: { name: "Hammer", defeats: ["shuriken", "dragon"] },
   shield: { name: "Shield", defeats: ["hammer", "wizard"] },
@@ -45,12 +57,18 @@ const choices = {
   wizard: { name: "Wizard", defeats: ["shuriken", "hammer"] },
 };
 
+// ---------------------
 // Define initial scores
+// ---------------------
+// Initial scores for the player and computer are set to 0.
 let playerScoreNumber = 0;
 let computerScoreNumber = 0;
 let computerChoice = "";
 
-// Function to reset selected' icons
+// ---------------------
+// Function to reset selected icons
+// ---------------------
+// This function removes the "selected" class from all game icons and stops any running confetti animation.
 function resetSelected() {
   allGameIcons.forEach((icons) => {
     icons.classList.remove("selected");
@@ -59,7 +77,10 @@ function resetSelected() {
   removeConfetti();
 }
 
-// Function to reset score & playerChoice/computerChoice
+// ---------------------
+// Function to reset scores and playerChoice/computerChoice
+// ---------------------
+// This function resets the game by setting all scores and choices to their initial values and calling the resetSelected function.
 function resetAll() {
   playerScoreNumber = 0;
   computerScoreNumber = 0;
@@ -71,7 +92,10 @@ function resetAll() {
   resetSelected();
 }
 
+// ---------------------
 // Function for computer choice
+// ---------------------
+// This function generates a random choice for the computer.
 function computerRandomChoice() {
   const computerChoiceNumber = Math.random();
   if (computerChoiceNumber < 0.2) {
@@ -87,7 +111,10 @@ function computerRandomChoice() {
   }
 }
 
+// ---------------------
 // Function to display computer's choice
+// ---------------------
+// This function updates the computer's choice in the DOM.
 function displayComputerChoice() {
   switch (computerChoice) {
     case "hammer":
@@ -115,7 +142,10 @@ function displayComputerChoice() {
   }
 }
 
+// ---------------------
 // Function to update scores and display result
+// ---------------------
+// This function updates the scores and displays the result of the game.
 function updateScore(playerChoice) {
   if (playerChoice === computerChoice) {
     resultText.textContent = "It's a tie.";
@@ -134,7 +164,10 @@ function updateScore(playerChoice) {
   }
 }
 
+// ---------------------
 // Function to check the result
+// ---------------------
+// This function checks the result of the game by calling other functions.
 function checkResult(playerChoice) {
   resetSelected();
   computerRandomChoice();
@@ -142,10 +175,12 @@ function checkResult(playerChoice) {
   updateScore(playerChoice);
 }
 
+// ---------------------
 // Function to handle player's selection
+// ---------------------
+// This function handles the player's selection by calling the checkResult function and updating the DOM.
 function select(playerChoice) {
   checkResult(playerChoice);
-  // Add 'selected' styling & playerChoice
   switch (playerChoice) {
     case "hammer":
       playerHammer.classList.add("selected");
@@ -172,19 +207,23 @@ function select(playerChoice) {
   }
 }
 
+// ---------------------
 // Set initial values on startup
+// ---------------------
 resetAll();
 
-// Rules Modal code snippet modified from the source: https://www.w3schools.com/howto/howto_css_modals.asp
+// ---------------------
+// Rules Modal code snippet modified from the source: <https://www.w3schools.com/howto/howto_css_modals.asp>
+// ---------------------
 
 // Get the modal
-var modal = document.getElementById("myModal");
+let modal = document.getElementById("myModal");
 
 // Get the button that opens the modal
-var btn = document.getElementById("rulesBtn");
+let btn = document.getElementById("rulesBtn");
 
 // Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
+let span = document.getElementsByClassName("close")[0];
 
 // When the user clicks on the button, open the modal
 btn.onclick = function () {
