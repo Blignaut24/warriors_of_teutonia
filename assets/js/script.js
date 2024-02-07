@@ -1,3 +1,5 @@
+/*jshint esversion: 6 */
+
 // Define game icons
 const hammerIcon = document.getElementById("playerHammer");
 hammerIcon.addEventListener("click", () => select("hammer"));

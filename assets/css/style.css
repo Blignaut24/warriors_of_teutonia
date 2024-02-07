@@ -180,39 +180,19 @@ h2 {
   cursor: pointer;
 }
 
-/* Rules Modal Button code snippet modified from the source button89 by Temani Afif: https://getcssscan.com/css-buttons-examples   */
+/* Rules Modal Button code snippet modified from the source button24 by Nomad List: https://getcssscan.com/css-buttons-examples   */
 #rulesBtn {
-  --b: 3px; /* border thickness */
-  --s: 0.45em; /* size of the corner */
-  font-family: var(--main-font);
-
-  padding: calc(0.5em + var(--s)) calc(0.9em + var(--s));
-  color: var(--color);
-  background-color: var(--game-container);
-  transition: 0.3s linear, color 0s, background-color 0s;
-  outline: var(--b) solid #0000;
-  outline-offset: 0.6em;
-  font-size: 1.1em;
-  border: 2px solid black; /* Adding border for inactive state */
-
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
+  background: var(--text);
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  padding: 12px 14px;
+  text-align: center;
 }
 
-#rulesBtn:hover,
-#rulesBtn:focus-visible {
-  outline-color: var(--text);
-  outline-offset: 0.05em;
+#rulesBtn:hover {
   background-color: var(--feedback-button);
-  font-weight: bold;
-  border: 2px solid black; /* Adding border for hover and focus state */
-}
-
-#rulesBtn:active {
-  background: var(--color);
-  color: #fff;
-  border: 2px solid black; /* Adding border for active state */
+  color: var(--text);
 }
 
 
