@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta
       name="description"
       content="In 'Warriors of Teutonia', engage in epic battles and strategic conquests as one of five legendary tribes. Only the bravest rule."
-    />
+    >
     <meta
       name="keywords"
       content="Welcome to 'Warriors of Teutonia, board game, strategy game, rock paper scissors variant, one player, Web-based Game, Browser Game"
-    />
+    >
     <title>Warriors of Teutonia</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-    />
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico" />
+    >
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
   </head>
   <body>
     <!-- header -->
@@ -107,7 +107,7 @@
         <!-- Trigger/ Open The Rules Modal -->
         <div class="rules-button-container">
           <!-- Trigger/Open The Modal -->
-          <button id="rulesBtn" role="button">Rules</button>
+          <button id="rulesBtn">Rules</button>
           <!-- The Modal -->
           <div id="myModal" class="modal">
             <!-- Modal content -->
@@ -116,49 +116,29 @@
               <h2><strong>Warriors of Teutonia - Rules of War</strong></h2>
               <dir id="gameplay-diagram" class="diagram">
                 <img
-                  src="assets\images\gameplay_diagram.webp"
+                  src="assets\images\gameplay_diagram.webp" 
                   title="Gameplay Diagram"
                   alt="Gameplay diagram"
-                />
+                >
               </dir>
               <div class="rules-text">
                 <ul>
-                  <li>
-                    <strong>Hammer:</strong> Beats Shuriken and Dragon, but
-                    loses to Wizard and Shield.
-                  </li>
-                  <li>
-                    <strong>Shield:</strong> Beats Wizard and Hammer, but loses
-                    to Dragon and Shuriken.
-                  </li>
-                  <li>
-                    <strong>Shuriken:</strong> Beats Dragon and Shield, but
-                    loses to Hammer and Wizard.
-                  </li>
-                  <li>
-                    <strong>Dragon:</strong> Beats Shield and Wizard, but loses
-                    to Shuriken and Hammer.
-                  </li>
-                  <li>
-                    <strong>Wizard:</strong> Beats Hammer and Shuriken, but
-                    loses to Dragon and Shield.
-                  </li>
-                  <li>
-                    <strong>Confetti:</strong> When you win a round, a confetti
-                    animation will automatically start. To stop the animation
-                    and proceed to the next round, simply make your next move by
-                    clicking one of the player icons.
-                  </li>
-                </ul>
-              </div>
+                  <li><strong>Hammer:</strong> Beats Shuriken and Dragon, but loses to Wizard and Shield.</li>
+                  <li><strong>Shield:</strong> Beats Wizard and Hammer, but loses to Dragon and Shuriken.</li>
+                  <li><strong>Shuriken:</strong> Beats Dragon and Shield, but loses to Hammer and Wizard.</li>
+                  <li><strong>Dragon:</strong> Beats Shield and Wizard, but loses to Shuriken and Hammer.</li>
+                  <li><strong>Wizard:</strong> Beats Hammer and Shuriken, but loses to Dragon and Shield.</li>
+                  <li><strong>Confetti:</strong> When you win a round, a confetti animation will automatically start. To stop the animation and proceed to the next round, simply make your next move by clicking one of the player icons.</li>
+              </ul>              
             </div>
           </div>
         </div>
       </div>
+    </div>
 
       <!-- Results Text -->
       <div class="result-container">
-        <h3 class="result-text" id="resultText"></h3>
+        <h3 class="result-text" id="resultText">0</h3>
       </div>
     </div>
 
