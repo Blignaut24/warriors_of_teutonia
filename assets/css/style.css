@@ -29,7 +29,7 @@
   --danger: #b20710;
   --player_icons: #0046a4;
   --computer_icons: #b20710;
-  --button_feedback: #00c599;
+  --button_feedback: #05C19C;
   --selection: #7e0684;
 
   /* utils */
@@ -108,7 +108,7 @@ h2 {
 
 #footer-panel{
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-self: center;
 }
 
@@ -230,8 +230,7 @@ h2 {
   --_p: 0px;
   outline-color: var(--info);
   outline-offset: 0.05em;
-  /* background-color: var(--info);  */
-  /* color: var(--button_feedback);  */
+  background-color: var(--button_feedback);    
 }
 
 #myBtn:active {
