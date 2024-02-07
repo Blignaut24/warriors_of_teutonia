@@ -1,3 +1,5 @@
+/*jshint esversion: 6 */
+
 var maxParticleCount = 150; //set max confetti count
 var particleSpeed = 2; //set the particle animation speed
 var startConfetti; //call to start confetti animation
@@ -15,9 +17,9 @@ var removeConfetti; //call to stop the confetti animation and remove all confett
 	var animationTimer = null;
 	var particles = [];
 	var waveAngle = 0;
-	
+
 	function resetParticle(particle, width, height) {
-		particle.color = colors[(Math.random() * colors.length) | 0];
+		particle.color = colors[Math.floor(Math.random() * colors.length)];
 		particle.x = Math.random() * width;
 		particle.y = Math.random() * height - height;
 		particle.diameter = Math.random() * 10 + 5;
