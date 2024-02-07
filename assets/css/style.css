@@ -13,22 +13,19 @@
   --background: #324b4c;
   --game-container: #f5f5f5;
   --primary: #d8a66c;
-  --info: #242335;
-  --success: #95d3a1;
-  --warning: #f39c20;
-  --danger: #b20710;
-  --player_icons: #0046a4;
-  --computer_icons: #b20710;
-  --button_feedback: #05c19c;
+  --text: #242335;
+  --player-icons: #0046a4;
+  --computer-icons: #b20710;
+  --feedback-button: #05c19c;
   --selection: #7e0684;
 }
 
 html {
   box-sizing: border-box;
 }
-
+/*  */
 body {
-  margin: 0;
+  /* margin: 0; */
   min-height: 100vh;
   background-color: var(--background);
   display: flex;
@@ -55,7 +52,7 @@ div.header {
 }
 
 h1 {
-  color: var(--info);
+  color: var(--text);
   font-size: 2.5em;
   font-family: var(--title);
 }
@@ -77,7 +74,7 @@ h2 {
 
 #player .fa-sharp,
 #player .choice {
-  color: var(--player_icons);
+  color: var(--player-icons);
   cursor: pointer;
 }
 
@@ -92,7 +89,7 @@ h2 {
 
 #computer > i,
 #computer .choice {
-  color: var(--computer_icons);
+  color: var(--computer-icons);
 }
 
 #footer-panel {
@@ -178,7 +175,7 @@ h2 {
 }
 
 /* Rules Modal Button code snippet modified from the source button89 by Temani Afif: https://getcssscan.com/css-buttons-examples   */
-#myBtn {
+#rulesBtn {
   --b: 3px; /* border thickness */
   --s: 0.45em; /* size of the corner */
   --color: #373b44;
@@ -206,16 +203,16 @@ h2 {
   touch-action: manipulation;
 }
 
-#myBtn:hover,
-#myBtn:focus-visible {
+#rulesBtn:hover,
+#rulesBtn:focus-visible {
   --_p: 0px;
-  outline-color: var(--info);
+  outline-color: var(--text);
   outline-offset: 0.05em;
-  background-color: var(--button_feedback);
+  background-color: var(--feedback-button);
   font-weight: bold;
 }
 
-#myBtn:active {
+#rulesBtn:active {
   background: var(--color);
   color: #fff;
 }
@@ -227,9 +224,15 @@ h2 {
 
 .rules-text ul {
   font-size: 1.2em; /* To make text slightly bigger */
-  line-height: 1.5; /* To increase the space between list bullet points */
+  line-height: 1.5em; /* To increase the space between list bullet points */
   font-family: var(--main-font);
 }
+
+/* Adjusting Text Alignment for Rule - Settings */
+.rules-text li {
+  max-width: 30em;
+  text-align: justify;
+  }
 
 /* Media Query: Large Smartphone (Vertical) */
 @media screen and (max-width: 600px) {
