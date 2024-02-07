@@ -184,25 +184,16 @@ h2 {
 #rulesBtn {
   --b: 3px; /* border thickness */
   --s: 0.45em; /* size of the corner */
-  --color: #373b44;
   font-family: var(--main-font);
 
   padding: calc(0.5em + var(--s)) calc(0.9em + var(--s));
   color: var(--color);
-  --_p: var(--s);
-  background: conic-gradient(
-      from 90deg at var(--b) var(--b),
-      #0000 90deg,
-      var(--color) 0
-    )
-    var(--_p) var(--_p) / calc(100% - var(--b) - 2 * var(--_p))
-    calc(100% - var(--b) - 2 * var(--_p));
+  background-color: var(--game-container);
   transition: 0.3s linear, color 0s, background-color 0s;
   outline: var(--b) solid #0000;
   outline-offset: 0.6em;
   font-size: 1.1em;
-
-  border: 0;
+  border: 2px solid black; /* Adding border for inactive state */
 
   user-select: none;
   -webkit-user-select: none;
@@ -211,17 +202,20 @@ h2 {
 
 #rulesBtn:hover,
 #rulesBtn:focus-visible {
-  --_p: 0px;
   outline-color: var(--text);
   outline-offset: 0.05em;
   background-color: var(--feedback-button);
   font-weight: bold;
+  border: 2px solid black; /* Adding border for hover and focus state */
 }
 
 #rulesBtn:active {
   background: var(--color);
   color: #fff;
+  border: 2px solid black; /* Adding border for active state */
 }
+
+
 
 /* Rules Modal Text */
 .modal-content h2 {
