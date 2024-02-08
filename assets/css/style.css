@@ -168,6 +168,10 @@ h2 {
 
 /* Modal Content/Box */
 .modal-content {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #fefefe;
   margin: 4.5em auto; /* 4.5em from the top and centered */
   padding: 1em;
@@ -243,6 +247,10 @@ h2 {
   #gameplay-diagram {
     width: 100%;
   }
+
+  #gameplay-diagram img {
+    width: 100%;
+  }
 }
 
 /* Media Query: Large Smartphone (Vertical) */
@@ -252,7 +260,9 @@ h2 {
     height: 580px;
   }
 
-  
+  #gameplay-diagram img {
+    width: 100%;
+  }
 
   .player-container {
     margin: 50px 0 25px 25px;
@@ -279,6 +289,11 @@ h2 {
   #gameplay-diagram {
     width: 100%;
   }
+
+  #gameplay-diagram img {
+    width: 100%;
+  }
+
 }
 
 /* Media Query: iPhone (Vertical) */
@@ -287,10 +302,10 @@ h2 {
     height: 550px;
   }
 
-  /* h1 { 
-    font-size: 22px;
+  #gameplay-diagram img {
+    width: 100%;
   }
-  */
+
 
   .player-container {
     margin: 43px 0 25px 20px;

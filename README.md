@@ -6,50 +6,7 @@
 
 View the live site [here](https://blignaut24.github.io/warriors_of_teutonia/).
 
-# Table of Content
-
-- [Warriors of Teutonia](#warriors-of-teutonia)
-- [Table of Content](#table-of-content)
-  - [User Stories](#user-stories)
-  - [Site Structure](#site-structure)
-  - [Wireframes \& Wireflows](#wireframes--wireflows)
-      - [Wireframes:](#wireframes)
-    - [Wireflows:](#wireflows)
-  - [Design Choices](#design-choices)
-    - [Typography](#typography)
-    - [Color](#color)
-    - [Icons](#icons)
-    - [Button](#button)
-      - [Non-Hover](#non-hover)
-      - [Hover](#hover)
-  - [Existing Features](#existing-features)
-    - [favicon](#favicon)
-    - [Heading](#heading)
-    - [Player \& Computer  Panel](#player--computer--panel)
-    - [Score Board](#score-board)
-    - [Selected: Icon \& Text](#selected-icon--text)
-    - [Reset Icon](#reset-icon)
-    - [Rules Button](#rules-button)
-      - [Non-Hover](#non-hover-1)
-      - [Hover](#hover-1)
-    - [Text Display: Win, Lose or Draw](#text-display-win-lose-or-draw)
-    - [Confetti](#confetti)
-    - [Rules - Modal](#rules---modal)
-    - [Gameplay Diagram](#gameplay-diagram)
-    - [Bullet Point Rules](#bullet-point-rules)
-    - [Exit button - Rule Modal](#exit-button---rule-modal)
-  - [Future Features](#future-features)
-  - [Technologies Used](#technologies-used)
-  - [Testing](#testing)
-  - [Deployment and Development](#deployment-and-development)
-    - [Deploying the Site](#deploying-the-site)
-    - [**Forking the Repository**](#forking-the-repository)
-    - [**Cloning the Repository**](#cloning-the-repository)
-  - [Credits](#credits)
-    - [Content](#content)
-    - [Code](#code)
-  - [Acknowledgements](#acknowledgements)
-
+## Content
 
 
 ## User Stories
@@ -105,9 +62,12 @@ The color palette was chosen to enhance the primitive and tribal theme portrayed
 ![favicon image](assets/images/favicon_barbarian.webp)
 
 - The player and computer reset icons are sourced from FontAwesome. They are visually appealing, load faster than images, which improves page load times, and are scalable without losing quality. This ensures they appear sharp on all devices and screen sizes.
-![player icons](assets/images/player_icons_screenshot.png)
-![computer icons](assets/images/computer_icons_screenshot.png)
-![reset icon](assets/images/reset_icon_screenshot.png)
+
+  ![player icons](assets/images/player_icons_screenshot.png)
+
+  ![computer icons](assets/images/computer_icons_screenshot.png)
+  
+  ![reset icon](assets/images/reset_icon_screenshot.png)
 
 ### Button
 
@@ -137,8 +97,10 @@ The primary objective of the "Warriors of Teutonia" game is to provide a user-fr
 
 - The player and computer sections are clearly distinguished, with the player's section marked in blue and the computer's in red.
 - This helps enhance the user experience by preventing any confusion about which icons the player can use, as the computer's icons are disabled to the user.
-![player icons](assets/images/player_icons_screenshot.png)
-![computer icons](assets/images/computer_icons_screenshot.png)
+ 
+  ![player icons](assets/images/player_icons_screenshot.png)
+
+  ![computer icons](assets/images/computer_icons_screenshot.png)
 
 ### Score Board
 
@@ -183,9 +145,12 @@ The primary objective of the "Warriors of Teutonia" game is to provide a user-fr
   
   ![confetti screenshot](assets/images/confetti_screenshot.png)
 
-### Rules - Modal
+### Modal - Rules
 
 - Upon clicking the rules button, a convenient modal pops up, overlaying the game. This provides clear instructions on how to play without resetting the game.
+  
+  ![modal rules page screenshot](assets/images/modal_rules.png)
+
 
 ### Gameplay Diagram
 
@@ -273,8 +238,6 @@ The site was deployed using GitHub pages through the following steps:
 3. In the dropdown menu for the branch, select "main".
 4. Click on "save".
 5. Refresh the page to view the deployed website link.
-   
-   ![git deployment screenshot](assets/images/git_deployment_screenshot.png)
 
 ### **Forking the Repository**
 
@@ -286,7 +249,6 @@ The steps to fork the repository are listed as follows:
 
 1. In the "the-everything-quiz" repository, click on the "fork" tab in the top right corner.
 2. Click on "create fork" to fork the repository.
-   ![git forking screenshot](assets/images/git_fork_screenshot.png)
 
 ### **Cloning the Repository**
 
@@ -303,7 +265,6 @@ The steps to clone the repository are as follows:
 5. Change the current working directory to the location where you want the cloned directory to be created.
 6. Type "git clone" and paste the URL that was copied from the repository.
 7. Press the "enter" key to create the clone.
-   ![git cloning screenshot](assets/images/git_coloning_screenshot.png)
 
 ## Credits
 
