@@ -49,11 +49,12 @@ body {
 */
 .game-container {
   width: 530px;
-  height: 600px;
+  min-height: 600px;
   background-color: var(--game-container);
   border-radius: 5px;
   box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.5);
 }
+
 
 /*
 * Header Styles
@@ -89,6 +90,10 @@ h2 {
   font-size: 2.7em;
   user-select: none;
   margin-right: 1em;
+}
+
+.fa-2xl {
+  line-height: 1.5em;
 }
 
 #player .fa-sharp,
@@ -166,7 +171,7 @@ h2 {
 .modal-content {
   background-color: #fefefe;
   margin: 4.5em auto; /* 4.5em from the top and centered */
-  padding: 20px;
+  padding: 1em;
   border: 1px solid #888;
   width: 75%; /* Could be more or less, depending on screen size */
 }
@@ -242,9 +247,9 @@ h2 {
     height: 580px;
   }
 
-  h1 {
-    font-size: 24px;
-  }
+  /* h1 { 
+    font-size: 2.2em;
+  }*/
 
   .player-container {
     margin: 50px 0 25px 25px;
@@ -273,9 +278,10 @@ h2 {
     height: 550px;
   }
 
-  h1 {
+  /* h1 { 
     font-size: 22px;
   }
+  */
 
   .player-container {
     margin: 43px 0 25px 20px;
