@@ -55,7 +55,6 @@ body {
   box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.5);
 }
 
-
 /*
 * Header Styles
 * Styling the header of the game including background color, border radius, height, and centering of items.
@@ -173,7 +172,7 @@ h2 {
   margin: 4.5em auto; /* 4.5em from the top and centered */
   padding: 1em;
   border: 1px solid #888;
-  width: 75%; /* Could be more or less, depending on screen size */
+  width: 40%; /* Could be more or less, depending on screen size */
 }
 
 /* Modal Diagram Settings */
@@ -240,6 +239,12 @@ h2 {
 * Adjusting the layout and sizing of elements for different screen sizes.
 */
 
+@media screen and (max-width: 900px) {
+  #gameplay-diagram {
+    width: 100%;
+  }
+}
+
 /* Media Query: Large Smartphone (Vertical) */
 @media screen and (max-width: 600px) {
   .game-container {
@@ -247,9 +252,7 @@ h2 {
     height: 580px;
   }
 
-  /* h1 { 
-    font-size: 2.2em;
-  }*/
+  
 
   .player-container {
     margin: 50px 0 25px 25px;
@@ -263,7 +266,13 @@ h2 {
     margin-top: 25px;
     margin-left: 25px;
   }
+
+  #gameplay-diagram {
+    width: 100%;
+  }
+
 }
+
 
 /* Media Query: Smartphone (Vertical) */
 @media screen and (max-width: 451px) {
