@@ -215,7 +215,7 @@ Features to be implemented in the future may include:
 
 - We plan to introduce a narrative backdrop to enrich the game's context. This feature is designed to boost player engagement and assist in remembering the rules by integrating them into the game's storyline. A sample narrative is currently being developed for future integration.
 
-  Link to the story about the game link. [GAMESTORY.md](GAMESTORY.) 
+  Link to the story about the game link. [GAMESTORY.md](GAMESTORY.md) 
 
 - We're planning to add AI-generated images to illustrate the battle scenarios. These images will clearly display which faction has won, and will be located directly below the outcome text.
 
