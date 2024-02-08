@@ -65,10 +65,10 @@ The design process utilized [Whimsical](https://whimsical.com/home) to create bo
 #### Wireframes:
 ![wireframe landing page](assets/images/wireframe_landing_page.webp)
 
-![wireframe rules page](assets\images\wireframe_rules_page.webp)
+![wireframe rules page](assets/images/wireframe_rules_page.webp)
 
 ### Wireflows:
-![wireflow image](assets\images\wireflow.webp)
+![wireflow image](assets/images/wireflow.webp)
 
 ## Design Choices
 

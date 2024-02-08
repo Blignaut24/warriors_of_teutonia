@@ -201,7 +201,7 @@ h2 {
 /* Rules Modal Button code snippet modified from the source button24 by Nomad List: https://getcssscan.com/css-buttons-examples   */
 #rulesBtn {
   background: var(--text);
-  color: #FFFFFF;
+  color: #ffffff;
   cursor: pointer;
   display: inline-block;
   padding: 12px 14px;
@@ -265,7 +265,6 @@ h2 {
   #gameplay-diagram {
     width: 100%;
   }
-  
 }
 
 /* Media Query: iPhone (Vertical) */
@@ -294,4 +293,3 @@ h2 {
     margin: 0 20px;
   }
 }
-
