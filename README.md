@@ -1,5 +1,3 @@
-![Am I responsive screenshot ](assets\images\i_am_responsive_screenshot.webp)
-
 ![Am I responsive screenshot](assets/images/i_am_responsive_screenshot.webp)
 
 # Warriors of Teutonia
@@ -65,9 +63,9 @@ The website consists of a single page that presents the main menu. The game rule
 The design process utilized [Whimsical](https://whimsical.com/home) to create both wireframes and wireflows, following a mobile-first approach.
 
 #### Wireframes:
-![wireframe landing page ](assets\images\wireframe_landing_page.webp)
+![wireframe landing page](assets/images/wireframe_landing_page.webp)
 
-![wireframe rules page ](assets\images\wireframe_rules_page.webp)
+![wireframe rules page](assets\images\wireframe_rules_page.webp)
 
 ### Wireflows:
 ![wireflow image](assets\images\wireflow.webp)
