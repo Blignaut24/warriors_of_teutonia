@@ -86,16 +86,15 @@ The chosen typography was designed to evoke a primitive and tribal atmosphere in
 
 The color palette was chosen to enhance the primitive and tribal theme portrayed through the typography. Furthermore, specific colors were selected for their ability to provide clear information to the user. For instance, the color #7e0684 was used to highlight the selections made by both the player and the computer.
 
-![color palete one image](assets\images\color_palete_one.webp)
-![color palete two image](assets\images\color_palete_two.webp)
+![color palete one image](assets/images/color_palete_one.webp)
+![color palete two image](assets/images/color_palete_two.webp)
 
 ### Icons
 
 - The Barbarian's favicon was used to enhance user experience, branding, and professionalism.
 
 
-![favicon image](assets\images\favicon_barbarian.webp)
+![favicon image](assets/images/favicon_barbarian.webp)
 
 - The player and computer reset icons are sourced from FontAwesome. They are visually appealing, load faster than images, which improves page load times, and are scalable without losing quality. This ensures they appear sharp on all devices and screen sizes.
 
-![favicon image](assets\images\favicon_barbarian.webp)
