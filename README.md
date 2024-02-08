@@ -149,7 +149,8 @@ The primary objective of the "Warriors of Teutonia" game is to provide a user-fr
 
 - Upon clicking the rules button, a convenient modal pops up, overlaying the game. This provides clear instructions on how to play without resetting the game.
   
-  ![modal rules page screenshot](assets/images/modal_rules.png)
+  ![gameplay diagram screenshot](assets/images/modal_rules.png)
+
 
 
 ### Gameplay Diagram
