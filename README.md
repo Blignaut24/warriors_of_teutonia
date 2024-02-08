@@ -6,11 +6,9 @@
 
 View the live site [here](https://blignaut24.github.io/warriors_of_teutonia/).
 
-## Content
 # Table of Content
 
 - [Warriors of Teutonia](#warriors-of-teutonia)
-  - [Content](#content)
 - [Table of Content](#table-of-content)
   - [User Stories](#user-stories)
   - [Site Structure](#site-structure)
@@ -48,7 +46,7 @@ View the live site [here](https://blignaut24.github.io/warriors_of_teutonia/).
     - [**Forking the Repository**](#forking-the-repository)
     - [**Cloning the Repository**](#cloning-the-repository)
   - [Credits](#credits)
-    - [Content](#content-1)
+    - [Content](#content)
     - [Code](#code)
   - [Acknowledgements](#acknowledgements)
 
@@ -275,6 +273,8 @@ The site was deployed using GitHub pages through the following steps:
 3. In the dropdown menu for the branch, select "main".
 4. Click on "save".
 5. Refresh the page to view the deployed website link.
+   
+   ![git deployment screenshot](assets/images/git_deployment_screenshot.png)
 
 ### **Forking the Repository**
 
@@ -286,6 +286,7 @@ The steps to fork the repository are listed as follows:
 
 1. In the "the-everything-quiz" repository, click on the "fork" tab in the top right corner.
 2. Click on "create fork" to fork the repository.
+   ![git forking screenshot](assets/images/git_fork_screenshot.png)
 
 ### **Cloning the Repository**
 
@@ -302,6 +303,7 @@ The steps to clone the repository are as follows:
 5. Change the current working directory to the location where you want the cloned directory to be created.
 6. Type "git clone" and paste the URL that was copied from the repository.
 7. Press the "enter" key to create the clone.
+   ![git cloning screenshot](assets/images/git_coloning_screenshot.png)
 
 ## Credits
 
