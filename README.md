@@ -32,6 +32,8 @@ View the live site [here](https://blignaut24.github.io/warriors_of_teutonia/).
     - [Selected: Icon \& Text](#selected-icon--text)
     - [Reset Icon](#reset-icon)
     - [Rules Button](#rules-button)
+      - [Non-Hover](#non-hover-1)
+      - [Hover](#hover-1)
     - [Text Display: Win, Lose or Draw](#text-display-win-lose-or-draw)
     - [Confetti](#confetti)
     - [Rules - Modal](#rules---modal)
@@ -41,6 +43,14 @@ View the live site [here](https://blignaut24.github.io/warriors_of_teutonia/).
   - [Future Features](#future-features)
   - [Technologies Used](#technologies-used)
   - [Testing](#testing)
+  - [Deployment and Development](#deployment-and-development)
+    - [Deploying the Site](#deploying-the-site)
+    - [**Forking the Repository**](#forking-the-repository)
+    - [**Cloning the Repository**](#cloning-the-repository)
+  - [Credits](#credits)
+    - [Content](#content-1)
+    - [Code](#code)
+  - [Acknowledgements](#acknowledgements)
 
 
 
@@ -118,44 +128,62 @@ The primary objective of the "Warriors of Teutonia" game is to provide a user-fr
 ### favicon
 
 - We opted for the barbarian favicon to bolster our brand identity, lend a professional touch, and enhance user experience through easier tab navigation.
+  ![flavicon screenshot](assets/images/flavicon_screenshot.png)
 
 ### Heading
 
 - The game's title is strategically positioned in the center and slightly towards the top of the screen for clear visibility as soon as the page loads.
+  ![heading screenshot](assets/images/heading_screenshot.png)
 
 ### Player & Computer  Panel
 
 - The player and computer sections are clearly distinguished, with the player's section marked in blue and the computer's in red.
 - This helps enhance the user experience by preventing any confusion about which icons the player can use, as the computer's icons are disabled to the user.
+![player icons](assets/images/player_icons_screenshot.png)
+![computer icons](assets/images/computer_icons_screenshot.png)
 
 ### Score Board
 
 - Enhances user experience by providing a clear score indicator, allowing users to effortlessly track their progress.
+  ![scoreboard screenshot](assets/images/score_board_screenshot.png)
 
 ### Selected: Icon & Text
 
 - The user experience is enhanced by providing dual feedback on the icons chosen by the player and the computer.
 - Firstly, the selected icons turn purple.
 - Secondly, text appears next to the player and computer names, indicating which icons were selected.
+  
+  ![selected icon and text screenshots](assets/images/selected_icon_text_screenshot.png)
 
 ### Reset Icon
 
 - The reset icon is positioned on the left side, beneath the computer icons, for easy accessibility.
 - Its design is simple to avoid distracting the player during the game, yet conspicuous enough for easy identification.
 
+  ![reset icon screenshot](assets/images/reset_icon_screenshot.png)
+
 ### Rules Button
 
 - The rules button is strategically placed on the right side, below the computer icons, for convenient access.
 - User interaction is enhanced as the button changes to green when hovered over, offering instant user feedback.
+  #### 	Non-Hover
+  ![rules button non-hover](assets/images/rule_button.png)
+
+  #### 	Hover
+  ![reset icon](assets/images/rules_hover_button.png)
 
 ### Text Display: Win, Lose or Draw
 
 - The text display button located at the bottom of the game console gives the player immediate feedback about their game result - win, loss, or draw - enhancing the overall gaming experience.
+  
+  ![text display screenshot](assets/images/text_display.png)
 
 ### Confetti
 
 - The confetti feature is activated when the player wins a round.
 - This visual cue enhances the gaming experience by providing a sense of accomplishment, encouraging the player to continue playing.
+  
+  ![confetti screenshot](assets/images/confetti_screenshot.png)
 
 ### Rules - Modal
 
@@ -166,14 +194,20 @@ The primary objective of the "Warriors of Teutonia" game is to provide a user-fr
 - A custom diagram, illustrating the gameplay, has been created to enhance the user experience.
 - This diagram can be viewed in the rules modal.
 
+  ![gameplay diagram screenshot](assets/images/gameplay_diagram.webp)
+
 ### Bullet Point Rules
 
 - The rules of the game are presented in bullet points within the rules modal for clarity and simplicity, enabling users to quickly comprehend them.
+  
+  ![bullet points screenshot](assets/images/bullet_poinst_screenshot.png)
 
 ### Exit button - Rule Modal
 
 - To exit the modal, an exit button is located in the top right corner.
-- The hover function changes the color of the exit button from grey to black, providing instant user feedback.
+  
+  
+  ![confetti screenshot](assets/images/exit_button_screenshot.png)
 
 ## Future Features
 
