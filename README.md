@@ -260,7 +260,7 @@ Features to be implemented in the future may include:
 ## Testing
 
 Please refer to the Testing section of this document for comprehensive testing details. 
-[TESTING.md](TESTING.)
+[TESTING.md](TESTING.md)
 
 ## Deployment and Development
 
